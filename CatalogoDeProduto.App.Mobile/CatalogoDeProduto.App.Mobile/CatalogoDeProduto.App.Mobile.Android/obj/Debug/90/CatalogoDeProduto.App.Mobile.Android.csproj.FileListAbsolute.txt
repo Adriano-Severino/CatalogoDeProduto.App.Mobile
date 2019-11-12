@@ -1,0 +1,4 @@
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile.Android\obj\Debug\90\build.props
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile.Android\obj\Debug\90\adb.props
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile.Android\obj\Debug\90\CatalogoDeProduto.App.Mobile.Android.csprojAssemblyReference.cache

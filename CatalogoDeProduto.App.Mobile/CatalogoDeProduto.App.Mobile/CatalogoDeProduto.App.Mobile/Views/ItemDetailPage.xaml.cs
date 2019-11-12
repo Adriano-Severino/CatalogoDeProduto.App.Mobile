@@ -26,13 +26,13 @@ namespace CatalogoDeProduto.App.Mobile.Views
         {
             InitializeComponent();
 
-            var item = new Item
+            var categoria = new Categoria
             {
-                Text = "Item 1",
+                Titulo = "Item 1",
                 Description = "This is an item description."
             };
 
-            viewModel = new ItemDetailViewModel(item);
+            viewModel = new ItemDetailViewModel(categoria);
             BindingContext = viewModel;
         }
     }

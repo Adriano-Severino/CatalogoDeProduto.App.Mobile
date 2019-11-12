@@ -9,64 +9,64 @@ using CatalogoDeProduto.App.Mobile.Models;
 
 namespace CatalogoDeProduto.App.Mobile.Services
 {
-    public class AzureDataStore : IDataStore<Item>
+    public class AzureDataStore : IDataStore<Categoria>
     {
         HttpClient client;
-        IEnumerable<Item> items;
+        IEnumerable<Categoria> categorias;
 
         public AzureDataStore()
         {
             client = new HttpClient();
             client.BaseAddress = new Uri($"{App.AzureBackendUrl}/");
 
-            items = new List<Item>();
+            categorias = new List<Categoria>();
         }
 
         bool IsConnected => Connectivity.NetworkAccess == NetworkAccess.Internet;
-        public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<IEnumerable<Categoria>> GetItemsAsync(bool forceRefresh = false)
         {
             if (forceRefresh && IsConnected)
             {
-                var json = await client.GetStringAsync($"api/item");
-                items = await Task.Run(() => JsonConvert.DeserializeObject<IEnumerable<Item>>(json));
+                var json = await client.GetStringAsync($"categorias");
+                categorias = await Task.Run(() => JsonConvert.DeserializeObject<IEnumerable<Categoria>>(json));
             }
 
-            return items;
+            return categorias;
         }
 
-        public async Task<Item> GetItemAsync(string id)
+        public async Task<Categoria> GetItemAsync(string id)
         {
             if (id != null && IsConnected)
             {
-                var json = await client.GetStringAsync($"api/item/{id}");
-                return await Task.Run(() => JsonConvert.DeserializeObject<Item>(json));
+                var json = await client.GetStringAsync($"categorias/{id}");
+                return await Task.Run(() => JsonConvert.DeserializeObject<Categoria>(json));
             }
 
             return null;
         }
 
-        public async Task<bool> AddItemAsync(Item item)
+        public async Task<bool> AddItemAsync(Categoria categoria)
         {
-            if (item == null || !IsConnected)
+            if (categoria == null || !IsConnected)
                 return false;
 
-            var serializedItem = JsonConvert.SerializeObject(item);
+            var serializedItem = JsonConvert.SerializeObject(categoria);
 
-            var response = await client.PostAsync($"api/item", new StringContent(serializedItem, Encoding.UTF8, "application/json"));
+            var response = await client.PostAsync($"categorias", new StringContent(serializedItem, Encoding.UTF8, "application/json"));
 
             return response.IsSuccessStatusCode;
         }
 
-        public async Task<bool> UpdateItemAsync(Item item)
+        public async Task<bool> UpdateItemAsync(Categoria categoria)
         {
-            if (item == null || item.Id == null || !IsConnected)
+            if (categoria == null || categoria.Id == null || !IsConnected)
                 return false;
 
-            var serializedItem = JsonConvert.SerializeObject(item);
+            var serializedItem = JsonConvert.SerializeObject(categoria);
             var buffer = Encoding.UTF8.GetBytes(serializedItem);
             var byteContent = new ByteArrayContent(buffer);
 
-            var response = await client.PutAsync(new Uri($"api/item/{item.Id}"), byteContent);
+            var response = await client.PutAsync(new Uri($"categorias/{categoria.Id}"), byteContent);
 
             return response.IsSuccessStatusCode;
         }
@@ -76,7 +76,7 @@ namespace CatalogoDeProduto.App.Mobile.Services
             if (string.IsNullOrEmpty(id) && !IsConnected)
                 return false;
 
-            var response = await client.DeleteAsync($"api/item/{id}");
+            var response = await client.DeleteAsync($"categorias/{id}");
 
             return response.IsSuccessStatusCode;
         }

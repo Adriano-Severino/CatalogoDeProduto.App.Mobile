@@ -13,15 +13,15 @@ namespace CatalogoDeProduto.App.Mobile.Views
     [DesignTimeVisible(false)]
     public partial class NewItemPage : ContentPage
     {
-        public Item Item { get; set; }
+        public Categoria Categoria { get; set; }
 
         public NewItemPage()
         {
             InitializeComponent();
 
-            Item = new Item
+            Categoria = new Categoria
             {
-                Text = "Item name",
+                Titulo = "Novo Titulo",
                 Description = "This is an item description."
             };
 
@@ -30,7 +30,7 @@ namespace CatalogoDeProduto.App.Mobile.Views
 
         async void Save_Clicked(object sender, EventArgs e)
         {
-            MessagingCenter.Send(this, "AddItem", Item);
+            MessagingCenter.Send(this, "AddCategoria", Categoria);
             await Navigation.PopModalAsync();
         }
 

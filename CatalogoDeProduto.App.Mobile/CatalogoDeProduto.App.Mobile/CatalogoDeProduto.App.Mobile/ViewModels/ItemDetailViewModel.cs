@@ -6,11 +6,11 @@ namespace CatalogoDeProduto.App.Mobile.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel
     {
-        public Item Item { get; set; }
-        public ItemDetailViewModel(Item item = null)
+        public Categoria Categoria { get; set; }
+        public ItemDetailViewModel(Categoria categoria = null)
         {
-            Title = item?.Text;
-            Item = item;
+            Title = categoria?.Titulo;
+            Categoria = categoria;
         }
     }
 }

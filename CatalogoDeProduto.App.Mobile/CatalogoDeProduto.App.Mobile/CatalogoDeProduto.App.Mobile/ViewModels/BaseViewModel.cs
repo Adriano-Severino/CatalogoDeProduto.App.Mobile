@@ -12,7 +12,7 @@ namespace CatalogoDeProduto.App.Mobile.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
+        public IDataStore<Categoria> DataStore => DependencyService.Get<IDataStore<Categoria>>();
 
         bool isBusy = false;
         public bool IsBusy

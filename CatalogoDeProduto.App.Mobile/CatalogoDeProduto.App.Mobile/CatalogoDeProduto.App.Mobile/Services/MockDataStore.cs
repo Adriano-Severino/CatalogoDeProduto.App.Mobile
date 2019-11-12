@@ -6,55 +6,55 @@ using CatalogoDeProduto.App.Mobile.Models;
 
 namespace CatalogoDeProduto.App.Mobile.Services
 {
-    public class MockDataStore : IDataStore<Item>
+    public class MockDataStore : IDataStore<Categoria>
     {
-        readonly List<Item> items;
+        readonly List<Categoria> categorias;
 
         public MockDataStore()
         {
-            items = new List<Item>()
+            categorias = new List<Categoria>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Categoria { Id = Guid.NewGuid().ToString(), Titulo = "First item", Description="This is an item description." },
+                new Categoria { Id = Guid.NewGuid().ToString(), Titulo = "Second item", Description="This is an item description." },
+                new Categoria { Id = Guid.NewGuid().ToString(), Titulo = "Third item", Description="This is an item description." },
+                new Categoria { Id = Guid.NewGuid().ToString(), Titulo = "Fourth item", Description="This is an item description." },
+                new Categoria { Id = Guid.NewGuid().ToString(), Titulo = "Fifth item", Description="This is an item description." },
+                new Categoria { Id = Guid.NewGuid().ToString(), Titulo = "Sixth item", Description="This is an item description." }
             };
         }
 
-        public async Task<bool> AddItemAsync(Item item)
+        public async Task<bool> AddItemAsync(Categoria categoria)
         {
-            items.Add(item);
+            categorias.Add(categoria);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> UpdateItemAsync(Item item)
+        public async Task<bool> UpdateItemAsync(Categoria categoria)
         {
-            var oldItem = items.Where((Item arg) => arg.Id == item.Id).FirstOrDefault();
-            items.Remove(oldItem);
-            items.Add(item);
+            var oldItem = categorias.Where((Categoria arg) => arg.Id == categoria.Id).FirstOrDefault();
+            categorias.Remove(oldItem);
+            categorias.Add(categoria);
 
             return await Task.FromResult(true);
         }
 
         public async Task<bool> DeleteItemAsync(string id)
         {
-            var oldItem = items.Where((Item arg) => arg.Id == id).FirstOrDefault();
-            items.Remove(oldItem);
+            var oldItem = categorias.Where((Categoria arg) => arg.Id == id).FirstOrDefault();
+            categorias.Remove(oldItem);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<Item> GetItemAsync(string id)
+        public async Task<Categoria> GetItemAsync(string id)
         {
-            return await Task.FromResult(items.FirstOrDefault(s => s.Id == id));
+            return await Task.FromResult(categorias.FirstOrDefault(s => s.Id == id));
         }
 
-        public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<IEnumerable<Categoria>> GetItemsAsync(bool forceRefresh = false)
         {
-            return await Task.FromResult(items);
+            return await Task.FromResult(categorias);
         }
     }
 }
