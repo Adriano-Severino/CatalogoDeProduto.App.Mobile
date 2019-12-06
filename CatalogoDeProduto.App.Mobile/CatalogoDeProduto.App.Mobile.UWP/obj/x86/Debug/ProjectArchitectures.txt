@@ -1,0 +1,1 @@
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile.UWP\CatalogoDeProduto.App.Mobile.UWP.csproj;x86

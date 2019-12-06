@@ -1,0 +1,39 @@
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\bin\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.deps.json
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\bin\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.dll
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\bin\Debug\netstandard2.0\ref\CatalogoDeProduto.App.Mobile.dll
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\bin\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.pdb
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.AssemblyInfoInputs.cache
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.AssemblyInfo.cs
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.dll
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\ref\CatalogoDeProduto.App.Mobile.dll
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.pdb
+C:\Users\Adria\source\repos\Adriano-Severino\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.csprojAssemblyReference.cache
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\bin\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.deps.json
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\bin\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.dll
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\bin\Debug\netstandard2.0\ref\CatalogoDeProduto.App.Mobile.dll
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\bin\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.pdb
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.AssemblyInfoInputs.cache
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.AssemblyInfo.cs
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.dll
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\ref\CatalogoDeProduto.App.Mobile.dll
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.pdb
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\Categoria\CategoriaDetailPage.xaml.g.cs
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\Categoria\CategoriaPage.xaml.g.cs
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\Categoria\NovaCategoriaPage.xaml.g.cs
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\CatalogoDeProduto.App.Mobile.csprojAssemblyReference.cache
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\Produto\NovoProdutoPage.xaml.g.cs
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\Produto\ProdutoDetailPage.xaml.g.cs
+C:\Xamarin Desenvolvimentos\CatalogoDeProduto.App.Mobile\CatalogoDeProduto.App.Mobile\obj\Debug\netstandard2.0\Views\Produto\ProdutoPage.xaml.g.cs
